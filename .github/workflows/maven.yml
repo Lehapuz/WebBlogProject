@@ -36,7 +36,7 @@ jobs:
       run: mvn package
 
     - name: Upload war
-      run: WebBlogProject-*.war
+      run: cp target/WebBlogProject-*.war webapps
     - uses: actions/upload-artifact@v4
 #      with:
 #       name: Package
