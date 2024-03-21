@@ -36,11 +36,11 @@ jobs:
       run: mvn package
 
     - name: Upload war
-      run: mkdir staging && cp target/WebBlogProject-*.war staging
+      run: cp web.war
     - uses: actions/upload-artifact@v4
-      with:
-       name: Package
-       path: staging
+#      with:
+#       name: Package
+#       path: staging
 
     # Install ssh key
     - name: Install SSH Key
