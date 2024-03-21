@@ -31,7 +31,7 @@ jobs:
       run: mvn package
 
     - name: Upload war
-      run: mkdir staging && cp target/sumpdata-*.jar staging
+      run: mkdir staging && cp target/WebBlogProject-*.war staging
     - uses: actions/upload-artifact@v4
       with:
        name: Package
