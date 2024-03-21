@@ -20,6 +20,7 @@
 <fmt:message bundle="${local}" key="local.unknown" var="unknown"/>
 
     <div>
+        <h1>"Говно"</h1>
         <h1>"${titleUser}"</h1>
     </div>
     <div>
