@@ -38,9 +38,9 @@ jobs:
     - name: Upload war
       run: cp target/we*.war web.war
     - uses: actions/upload-artifact@v4
-      with:
-       name: Package
-       path: staging
+#      with:
+#       name: Package
+#       path: staging
 
     # Install ssh key
     - name: Install SSH Key
