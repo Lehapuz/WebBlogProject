@@ -49,7 +49,7 @@
 <input name="email" type="email"/>
 <br>
 <br>
-<label>SecreteCode</label>
+<label>SecreteCode if you want to register as a moderator</label>
 <br>
 <input name="secreteCode" type="string"/>
 <br>
